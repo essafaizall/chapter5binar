@@ -1,0 +1,435 @@
+/* using tags selector */
+body, html {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  font-family: 'Bebas Neue', cursive;
+  font-weight: bold;
+  font-size: 80px;
+}
+
+h2 {
+  font-family: 'Bebas Neue', cursive;
+  font-weight: bold;
+  font-size: 36px;
+}
+
+h3 {
+  font-family: 'Bebas Neue', cursive;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+}
+
+.sub-text {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+}
+
+
+.text-main-button {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.navigation {
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+
+
+/* * {
+  box-sizing: border-box;
+} */
+
+.main-screen {
+  background-image: url('https://i.ibb.co/QDfS0vD/main-bg.jpg');
+  background-size: 100% 100%;
+  object-fit: contain;
+  height: 880px;
+  position: relative;
+}
+
+
+.main-screen2 {
+  top: -5px;
+  background-image: url('assets/the-games-bg.jpg');
+  background-size: 100% 100%;
+  object-fit: contain;
+  height: 880px;
+  position: relative;
+}
+
+a {
+  color: #FFFFFF !important;
+  font-family: 'Open Sans';
+  line-height: 33px;
+}
+
+.main-bg-dark {
+  margin-top: -0.6px;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.auth {
+  position: relative;
+  left: -100px;
+}
+
+/* NAVBAR */
+
+.navbar-brand {
+  font-family: 'Open Sans';
+  letter-spacing: 0.1em;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: bold;
+  padding-bottom: .30rem;
+  position: relative;
+  left: 80px;
+  text-transform: uppercase;
+}
+
+.navbar-nav {
+  margin-left: 220px;
+  text-transform: uppercase;
+  font-family: 'Open Sans';
+  font-weight: bold;
+  line-height: 16px;
+  font-size: 12px;
+  text-align: right;
+  letter-spacing: 0.1em;
+}
+
+.nav-item {
+  margin-right: 20px;
+}
+
+/* content main */
+
+main {
+  color: white;
+  text-align: center;
+  margin-top: 25vh;
+}
+
+.yesman {
+  color: white;
+  text-align: center;
+  margin-top: 100vh;
+}
+
+main h1 {
+  text-transform: uppercase;
+  margin-bottom: 45px;
+}
+
+main h3 {
+  letter-spacing: 2px;
+  margin-bottom: 45px;
+}
+
+.btn-warning {
+  background-color: #FFB548;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+/* SCROLL DOWN BUTTON */
+
+.scroll-down-button {
+  position: absolute;
+  bottom: 0px;
+  left: 47%;
+}
+
+.scroll-down-button a {
+  font-size: 12px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: bold;
+  line-height: 22px;
+  text-align: justify;
+  margin-bottom: 2px;
+}
+
+.scroll-down {
+  margin-top: -40px;
+}
+
+/* Page 2 */
+.column1{
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 2px;
+
+  color: #FFFFFF;
+}
+.the-games{
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+
+  color: #FFFFFF;
+}
+.jarak-row{
+  padding-top: 250px;
+}
+/* page 3 */
+.main-screen-tiga {
+  top: -5px;
+  background-image: url('./assets/features.jpg');
+  background-size: 100% 100%;
+  object-fit: contain;
+  height: 880px;
+  position: relative;
+}
+.features{
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+
+  color: #FFFFFF;
+  }
+  .traditional-games{
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 2px;
+
+    color: #FFB548;
+
+  }
+  .if-you-miss{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    /* or 122% */
+
+    text-align: justify;
+
+    color: #FFFFFF;
+  }
+  .main-screen-empat{
+    top: -5px;
+    background-image: url('./assets/requirements.jpg');
+    background-size: 100% 100%;
+    object-fit: contain;
+    height: 880px;
+    position: relative;
+  }
+  .can-my-computer{
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #FFFFFF;
+    padding-top: 100px;
+    text-align: center;
+  }
+  .system-spec{
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 56px;
+    line-height: 64px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    padding-top: 120px;
+    color: #ffffff;
+  }
+  .os{
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 2px;
+    color: #FFB548;
+  }
+  .spec{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #ffffff;
+  }
+  .td-spec{
+    border: 1px solid #979797;
+    padding-top: 20px; padding-left: 15px; padding-bottom: 20px; padding-right: 15px;
+  }
+  .main-screen-lima{
+    top: -5px;
+    background-image: url('./assets/black-paper.jpg');
+    background-size: 100% 100%;
+    object-fit: contain;
+    height: 880px;
+    position: relative;
+  }
+  .top-scores{
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 56px;
+    line-height: 64px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+  .this-top{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+  }
+  .card-nyoba{
+    background-color: #1c1e1f;
+    border-radius: 10px;
+  }
+  .bg-cardd {
+    --bs-bg-opacity: 1;
+    background-color: rgba(255, 255, 255, 0.08)(var(--bs-success-rgb), var(--bs-bg-opacity)) !important;
+  }
+  .card-nama{
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 2px;
+    color: #FFB548;
+  }
+  .sub-nama{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: justify;
+    color: #FFFFFF;
+    opacity: 0.5;
+  }
+  .kontennya{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+  }
+  .tanggal{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+  }
+
+  .main-screen-enam{
+    top: -5px;
+    background-color: #080A0B;
+    object-fit: contain;
+    height: 880px;
+    position: relative;
+  }
+  .gambar-combine{
+    -webkit-mask:url('./assets/image.png') center/contain no-repeat;
+      max-width:100%;
+    background-image: url('./assets/image.png');
+  }
+  .want-to-stay{
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+    margin-bottom:50px;
+  }
+  .newsletter{
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 65px;
+    line-height: 75px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom:50px;
+  }
+  .description{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    margin-bottom:50px;
+  }
+  label, input {
+    position: relative;
+    display: block;
+    padding-right: 76px;
+    width: 304px;
+    box-sizing: border-box;
+    padding-right: -200px;
+  }
+  .main-footer{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+  .garis{
+    border-bottom: 1px solid white;
+    min-width: 105%;
+  }
+  .copyright{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+  }
