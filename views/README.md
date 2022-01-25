@@ -1,1 +1,0 @@
-Tested work on Chrome Version 96.0.4664.45
